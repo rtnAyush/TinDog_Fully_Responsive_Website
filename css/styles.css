@@ -1,0 +1,161 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.colored-white{
+  background-color: #fff;
+  color: Black;
+}
+/* nav bar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+/* title section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+/* download-btn */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* image of phone */
+.phone-img {
+  width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 28%;
+}
+
+/* Features section */
+#features {
+  position: relative;
+}
+
+.feature-header-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.feature-box {
+  padding: 4%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 4% 3%;
+}
+
+/* press section */
+
+#press {
+  background-color: #ef8172;
+}
+#press .container-fluid{
+  padding-top: 0;
+}
+.press-img {
+  width: 15%;
+  margin: 2% 4% 8%;
+}
+
+/* pricing-section  */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-header {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-table {
+  padding: 3% 2%;
+}
+
+/* <!-- Call to Action --> */
+/* #cta {
+} */
+
+/* footer */
+.f-icon {
+  margin: 2% 1%;
+}
+
+@media (max-width:992px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
